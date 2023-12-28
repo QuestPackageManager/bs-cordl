@@ -1,12 +1,13 @@
 {
   "config": {
+    "version": "0.1.0",
     "sharedDir": "include",
     "dependenciesDir": "extern",
     "info": {
       "name": "bs-cordl",
       "id": "bs-cordl",
       "version": "0.1.0",
-      "url": "https://github.com/QuestPackageManager/bs-cordl",
+      "url": null,
       "additionalData": {
         "headersOnly": true,
         "compileOptions": {
@@ -22,6 +23,14 @@
         }
       }
     },
+    "workspace": {
+      "scripts": {
+        "build": [
+          "cmake -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo -B ./build -S .",
+          "cmake --build ./build"
+        ]
+      }
+    },
     "dependencies": [
       {
         "id": "beatsaber-hook",
@@ -33,8 +42,7 @@
         "versionRange": "^0.3.0",
         "additionalData": {}
       }
-    ],
-    "workspace": null
+    ]
   },
   "restoredDependencies": [
     {
@@ -64,7 +72,10 @@
         "id": "scotland2",
         "versionRange": "=0.1.3",
         "additionalData": {
-          "overrideSoName": "libsl2.so"
+          "soLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.3/libsl2.so",
+          "debugSoLink": "https://github.com/sc2ad/scotland2/releases/download/v0.1.3/debug_libsl2.so",
+          "overrideSoName": "libsl2.so",
+          "branchName": "version/v0_1_3"
         }
       },
       "version": "0.1.3"

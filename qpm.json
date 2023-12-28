@@ -30,7 +30,7 @@
   "workspace": {
     "scripts": {
       "build": [
-        "cmake -G \"Ninja\" -DCMAKE_BUILD_TYPE=\"RelWithDebInfo\" -B ./build -S .",
+        "cmake -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo -B ./build -S .",
         "cmake --build ./build"
       ]
     }
