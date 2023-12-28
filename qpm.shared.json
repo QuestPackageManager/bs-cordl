@@ -7,7 +7,7 @@
       "name": "bs-cordl",
       "id": "bs-cordl",
       "version": "0.1.0",
-      "url": null,
+      "url": "https://github.com/QuestPackageManager/bs-cordl",
       "additionalData": {
         "headersOnly": true,
         "compileOptions": {
@@ -18,7 +18,8 @@
           "cppFlags": [
             "-DNEED_UNSAFE_CSHARP",
             "-fdeclspec",
-            "-DUNITY_2021"
+            "-DUNITY_2021",
+            "-DHAS_CODEGEN"
           ]
         }
       }

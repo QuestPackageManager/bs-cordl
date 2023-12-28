@@ -11,7 +11,7 @@
       "compileOptions": {
         "includePaths": ["include"],
         "cppFeatures": [],
-        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-fdeclspec", "-DUNITY_2021"]
+        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-fdeclspec", "-DUNITY_2021", "-DHAS_CODEGEN"]
       }
     }
   },
